@@ -24,7 +24,7 @@ jobs:
         with:
           name: TFLint
           path: tflint-output.json
-        if: always()                        # what is this for?
+        if: always()
 
   test:
     runs-on: ubuntu-latest
